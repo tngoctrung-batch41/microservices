@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/APIgateway/APIgateway/APIgateway.iml" filepath="$PROJECT_DIR$/APIgateway/APIgateway/APIgateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/APIgateway/APIgateway (1).iml" filepath="$PROJECT_DIR$/APIgateway/APIgateway (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Config-Server/Config-Server.iml" filepath="$PROJECT_DIR$/Config-Server/Config-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Discovery-Server/Discovery-Server.iml" filepath="$PROJECT_DIR$/Discovery-Server/Discovery-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/School/School.iml" filepath="$PROJECT_DIR$/School/School.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Student/Student.iml" filepath="$PROJECT_DIR$/Student/Student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservices-st.iml" filepath="$PROJECT_DIR$/.idea/microservices-st.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Config-Server/Config-Server/src/test/test.iml" filepath="$PROJECT_DIR$/../Config-Server/Config-Server/src/test/test.iml" />
+    </modules>
+  </component>
+</project>
