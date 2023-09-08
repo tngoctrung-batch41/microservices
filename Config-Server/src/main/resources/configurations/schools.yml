@@ -4,10 +4,10 @@ eureka:
     hostname: localhost
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:8762/eureka/
 
 server:
-  port: 8070
+  port: 9006
 spring:
   application:
     name: schools
@@ -22,4 +22,4 @@ spring:
     show-sql: true
 application:
   config:
-    students-url: http://localhost:8090/api/v1/student
+    students-url: http://localhost:9005/api/v1/student

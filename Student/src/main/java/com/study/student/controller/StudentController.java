@@ -18,8 +18,9 @@ public class StudentController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.ACCEPTED)
-    public void saveStudent(@RequestBody Student student){
+    public ResponseEntity saveStudent(@RequestBody Student student){
         studentService.saveStudent(student);
+        return ResponseEntity.ok("New student is added");
     }
 
     @GetMapping
