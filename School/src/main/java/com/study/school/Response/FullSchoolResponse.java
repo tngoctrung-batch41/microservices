@@ -1,6 +1,6 @@
 package com.study.school.Response;
 
-import com.study.school.Student;
+import com.study.school.student.Student;
 import lombok.*;
 
 import java.util.List;

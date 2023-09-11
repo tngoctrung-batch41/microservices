@@ -12,7 +12,6 @@ import jakarta.ws.rs.NotFoundException;
 import lombok.RequiredArgsConstructor;
 
 import org.springframework.stereotype.Service;
-import reactor.core.publisher.Mono;
 
 import java.util.List;
 
@@ -50,15 +49,9 @@ public class SchoolService {
             // Handle the circuit breaker open state
             return handleCircuitBreakerOpenStateOrFallback(e);
         }
-
     }
     public FullSchoolResponse handleCircuitBreakerOpenStateOrFallback(Exception e){
         throw new ServiceException("Service is not available, please try later");
     }
-
-
-
-
-
 
 }

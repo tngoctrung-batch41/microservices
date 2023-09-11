@@ -1,4 +1,4 @@
-package com.study.school;
+package com.study.school.student;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
