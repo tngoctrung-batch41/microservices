@@ -16,7 +16,7 @@ public class StudentController {
 
     private final StudentService studentService;
 
-    @PostMapping
+    @PostMapping("/create")
     @ResponseStatus(HttpStatus.ACCEPTED)
     public ResponseEntity saveStudent(@RequestBody Student student){
         studentService.saveStudent(student);

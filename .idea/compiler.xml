@@ -11,17 +11,11 @@
         <module name="School" />
         <module name="Discovery-Server" />
         <module name="Student" />
-        <module name="APIgateway (1)" />
         <module name="Config-Server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="APIgateway" target="17" />
       <module name="APIgateway (1)" target="17" />
-      <module name="Config-Server" target="17" />
-      <module name="Discovery-Server" target="17" />
-      <module name="School" target="17" />
-      <module name="Student" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

@@ -17,7 +17,7 @@ spring:
           predicates:
             - Path= /api/v1/student/**
         - id: schools
-          uri: http://localhost:9006
+          uri: http://localhost:9111
           predicates:
             - Path= /api/v1/school/**
 
